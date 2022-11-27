@@ -2,6 +2,11 @@
 ## Source
 #### Overall, equity stock is the only asset class involved in this work. Three primary datasets listed below, which range 291 months, from April 1998 to June 2022, are utilised. (Their information is outlined below.) All currently active firms and delisted firms once listed in the US stock market are included.
 
+### 1. S&P Compustat Fundamentals Dataset
+#### 
+
+
+
 | **Variable** | **Definition**                                                                        | **Source**                         |
 |--------------|---------------------------------------------------------------------------------------|------------------------------------|
 | ACOQ         | Current Assets - Other - Total - Quarterly                                            | S&P Compustat Fundamentals Dataset |
@@ -35,7 +40,3 @@
 | Mom          | Monthly Momentum portfolio return                                                     | Ken French Data Library            |
 | ST_Rev       | Monthly Short-term reversal portfolio return                                          | Ken French Data Library            |
 | LT_Rev       | Monthly long-term reversal portfolio return                                           | Ken French Data Library            |
-
-
-### 1. S&P Compustat Fundamentals Dataset
-#### 
