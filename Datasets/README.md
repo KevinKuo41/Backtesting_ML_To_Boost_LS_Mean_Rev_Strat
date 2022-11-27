@@ -4,7 +4,7 @@
 
 ### 1. S&P Compustat Fundamentals Dataset
 #### 21 accounting items, share prices, shares outstanding, and total returns for all companies listed from 1998 to 2022 are downloaded from the S&P Compustat Fundamentals Dataset. Among them, 21 accounting items are most on a quarterly basis, since they were only updated at the end of every quarter. By contrast, share prices and shares outstanding are on a monthly basis.
-S&P Compustat Fundamentals Dataset: https://www.marketplace.spglobal.com/en/datasets/compustat-fundamentals-(8)?utm_source=google&utm_medium=cpc&utm_campaign=DMS_Marketplace_Search_Google&utm_term=&utm_content=586436401424&_bt=586436401424&_bk=&_bm=&_bn=g&_bg=133704002389&gclid=Cj0KCQiAj4ecBhD3ARIsAM4Q_jEY3NDcZT41-xSzFBeoLsIDW5l0Ri58cdPqhh1UV0FOmkUf6B2JcUkaAmddEALw_wcB
+S&P Compustat Fundamentals Dataset(https://www.marketplace.spglobal.com/en/datasets/compustat-fundamentals-(8))
 
 ### 2. Fred Economic Data
 #### 21 accounting items, share prices, shares outstanding, and total returns for all companies listed from 1998 to 2022 are downloaded from the S&P Compustat Fundamentals Dataset. Among them, 21 accounting items are most on a quarterly basis, since they were only updated at the end of every quarter. By contrast, share prices and shares outstanding are on a monthly basis.
