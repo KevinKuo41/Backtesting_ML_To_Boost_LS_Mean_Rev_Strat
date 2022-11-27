@@ -1,5 +1,5 @@
 # Source
-#### Overall, equity stock is the only asset class involved in this work. Three primary datasets, which range 291 months, from April 1998 to June 2022, are utilised. All currently active firms and delisted firms once listed in the US stock market are included. <br> Download Link: https://drive.google.com/drive/folders/10TP7iOiUej9Y8RwLQY-RUU4a-VYY_CHb?usp=share_link <br> The sources of the three primary datasets are from:
+#### Overall, equity stock is the only asset class involved in this work. Three primary datasets, which range 291 months, from April 1998 to June 2022, are utilised. All currently active firms and delisted firms once listed in the US stock market are included. <br> Download Link: https://drive.google.com/drive/folders/10TP7iOiUej9Y8RwLQY-RUU4a-VYY_CHb?usp=share_link <br> <br> The sources of the three primary datasets are from:
 
 ## 1. S&P Compustat Fundamentals Dataset
 (https://www.marketplace.spglobal.com/en/datasets/compustat-fundamentals-(8))
