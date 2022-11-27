@@ -16,7 +16,7 @@ S&P Compustat Fundamentals Dataset
 #### 6 known risk premium factors (including Mkt-Rf, SMB, HML, Momemtum, ST_Rev, LT_Rev) proposed by Kenneth R. French are downloaded from Ken French Data Library.
 
 
-The detailed information of all used variables is outlined in the belwo table.
+#### The detailed information of all used variables is outlined in the belwo table.
 
 | **Variable** | **Definition**                                                                 | **Source**                         |
 |--------------|--------------------------------------------------------------------------------|------------------------------------|
