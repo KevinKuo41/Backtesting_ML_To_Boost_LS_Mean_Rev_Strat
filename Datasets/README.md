@@ -18,36 +18,36 @@ S&P Compustat Fundamentals Dataset
 
 The detailed information of all used variables is outlined in the belwo table.
 
-| **Variable** | **Definition**                                                                        | **Source**                         |
-|--------------|---------------------------------------------------------------------------------------|------------------------------------|
-| ACOQ         | Current Assets - Other - Total - Quarterly                                            | S&P Compustat Fundamentals Dataset |
-| AOQ          | Assets - Other - Total - Quarterly                                                    | S&P Compustat Fundamentals Dataset |
-| ATQ          | Assets - Total - Quarterly                                                            | S&P Compustat Fundamentals Dataset |
-| CEQQ         | Common/Ordinary Equity - Total - Quarterly                                            | S&P Compustat Fundamentals Dataset |
-| CHEQ         | Cash and Short-Term Investments - Quarterly                                           | S&P Compustat Fundamentals Dataset |
-| DLTTQ        | Long-Term Debt - Total - Quarterly                                                    | S&P Compustat Fundamentals Dataset |
-| DVPQ         | Dividends - Preferred/Preference - Quarterly                                          | S&P Compustat Fundamentals Dataset |
-| IBADJQ       | Income Before Extraordinary Items - Adjusted for Common Stock Equivalents - Quarterly | S&P Compustat Fundamentals Dataset |
-| IBQ          | Before Extraordinary Items - Quarterly                                                | S&P Compustat Fundamentals Dataset |
-| LCOQ         | Current Liabilities - Other - Total - Quarterly                                       | S&P Compustat Fundamentals Dataset |
-| LOQ          | Liabilities - Other - Total - Quarterly                                               | S&P Compustat Fundamentals Dataset |
-| LTQ          | Liabilities - Total - Quarterly                                                       | S&P Compustat Fundamentals Dataset |
-| NIQ          | Net Income (Loss) - Quarterly                                                         | S&P Compustat Fundamentals Dataset |
-| NOPIQ        | Non-operating Income (Expense) - Quarterly                                            | S&P Compustat Fundamentals Dataset |
-| PIQ          | Pretax Income - Quarterly                                                             | S&P Compustat Fundamentals Dataset |
-| PPENTQ       | Property Plant and Equipment - Total (Net) - Quarterly                                | S&P Compustat Fundamentals Dataset |
-| PSTKQ        | Preferred/Preference Stock (Capital) - Total - Quarterly                              | S&P Compustat Fundamentals Dataset |
-| SALEQ        | Sales/Turnover (Net) - Quarterly                                                      | S&P Compustat Fundamentals Dataset |
-| TXTQ         | Income Taxes - Total - Quarterly                                                      | S&P Compustat Fundamentals Dataset |
-| XIDOQ        | Extraordinary Items and Discontinued Operations - Quarterly                           | S&P Compustat Fundamentals Dataset |
-| DVY          | Cash Dividends (Cash Flow) - Yearly                                                   | S&P Compustat Fundamentals Dataset |
-| PRCCM        | Price - Close - Monthly                                                               | S&P Compustat Fundamentals Dataset |
-| TRT1M        | Total Return - Monthly                                                                | S&P Compustat Fundamentals Dataset |
-| CSHOM        | Shares Outstanding – Issue - Monthly                                                  | S&P Compustat Fundamentals Dataset |
-| Fed Rate     | Federal Funds Effective Rate - Monthly                                                | Fred Economic Data                 |
-| Mkt_RF       | Monthly market index excess return                                                    | Ken French Data Library            |
-| SMB          | Monthly Small Minus Big (SMB) portfolio return                                        | Ken French Data Library            |
-| HML          | Monthly High Minus Low (HML) portfolio return                                         | Ken French Data Library            |
-| Mom          | Monthly Momentum portfolio return                                                     | Ken French Data Library            |
-| ST_Rev       | Monthly Short-term reversal portfolio return                                          | Ken French Data Library            |
-| LT_Rev       | Monthly long-term reversal portfolio return                                           | Ken French Data Library            |
+| **Variable** | **Definition**                                                                 | **Source**                         |
+|--------------|--------------------------------------------------------------------------------|------------------------------------|
+| ACOQ         | Current Assets - Other - Total - Quarterly                                     | S&P Compustat Fundamentals Dataset |
+| AOQ          | Assets - Other - Total - Quarterly                                             | S&P Compustat Fundamentals Dataset |
+| ATQ          | Assets - Total - Quarterly                                                     | S&P Compustat Fundamentals Dataset |
+| CEQQ         | Common/Ordinary Equity - Total - Quarterly                                     | S&P Compustat Fundamentals Dataset |
+| CHEQ         | Cash and Short-Term Investments - Quarterly                                    | S&P Compustat Fundamentals Dataset |
+| DLTTQ        | Long-Term Debt - Total - Quarterly                                             | S&P Compustat Fundamentals Dataset |
+| DVPQ         | Dividends - Preferred/Preference - Quarterly                                   | S&P Compustat Fundamentals Dataset |
+| IBADJQ       | Income Before Extraordinary Items - Adjusted for Stock Equivalents - Quarterly | S&P Compustat Fundamentals Dataset |
+| IBQ          | Before Extraordinary Items - Quarterly                                         | S&P Compustat Fundamentals Dataset |
+| LCOQ         | Current Liabilities - Other - Total - Quarterly                                | S&P Compustat Fundamentals Dataset |
+| LOQ          | Liabilities - Other - Total - Quarterly                                        | S&P Compustat Fundamentals Dataset |
+| LTQ          | Liabilities - Total - Quarterly                                                | S&P Compustat Fundamentals Dataset |
+| NIQ          | Net Income (Loss) - Quarterly                                                  | S&P Compustat Fundamentals Dataset |
+| NOPIQ        | Non-operating Income (Expense) - Quarterly                                     | S&P Compustat Fundamentals Dataset |
+| PIQ          | Pretax Income - Quarterly                                                      | S&P Compustat Fundamentals Dataset |
+| PPENTQ       | Property Plant and Equipment - Total (Net) - Quarterly                         | S&P Compustat Fundamentals Dataset |
+| PSTKQ        | Preferred/Preference Stock (Capital) - Total - Quarterly                       | S&P Compustat Fundamentals Dataset |
+| SALEQ        | Sales/Turnover (Net) - Quarterly                                               | S&P Compustat Fundamentals Dataset |
+| TXTQ         | Income Taxes - Total - Quarterly                                               | S&P Compustat Fundamentals Dataset |
+| XIDOQ        | Extraordinary Items and Discontinued Operations - Quarterly                    | S&P Compustat Fundamentals Dataset |
+| DVY          | Cash Dividends (Cash Flow) - Yearly                                            | S&P Compustat Fundamentals Dataset |
+| PRCCM        | Price - Close - Monthly                                                        | S&P Compustat Fundamentals Dataset |
+| TRT1M        | Total Return - Monthly                                                         | S&P Compustat Fundamentals Dataset |
+| CSHOM        | Shares Outstanding – Issue - Monthly                                           | S&P Compustat Fundamentals Dataset |
+| Fed Rate     | Federal Funds Effective Rate - Monthly                                         | Fred Economic Data                 |
+| Mkt_RF       | Monthly market index excess return                                             | Ken French Data Library            |
+| SMB          | Monthly Small Minus Big (SMB) portfolio return                                 | Ken French Data Library            |
+| HML          | Monthly High Minus Low (HML) portfolio return                                  | Ken French Data Library            |
+| Mom          | Monthly Momentum portfolio return                                              | Ken French Data Library            |
+| ST_Rev       | Monthly Short-term reversal portfolio return                                   | Ken French Data Library            |
+| LT_Rev       | Monthly long-term reversal portfolio return                                    | Ken French Data Library            |
