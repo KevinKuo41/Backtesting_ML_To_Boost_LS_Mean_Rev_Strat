@@ -1,14 +1,19 @@
 # Datasets
 ## Source
-#### Overall, equity stock is the only asset class involved in this work. Three primary datasets listed below, which range 291 months, from April 1998 to June 2022, are utilised. (Their information is outlined in the bottom.) All currently active firms and delisted firms once listed in the US stock market are included.
+#### Overall, equity stock is the only asset class involved in this work. Three primary datasets listed below, which range 291 months, from April 1998 to June 2022, are utilised. All currently active firms and delisted firms once listed in the US stock market are included.
 
 ### 1. S&P Compustat Fundamentals Dataset
 #### 21 accounting items, share prices, shares outstanding, and total returns for all companies listed from 1998 to 2022 are downloaded from the S&P Compustat Fundamentals Dataset. Among them, 21 accounting items are most on a quarterly basis, since they were only updated at the end of every quarter. By contrast, share prices and shares outstanding are on a monthly basis.
-S&P Compustat Fundamentals Dataset(https://www.marketplace.spglobal.com/en/datasets/compustat-fundamentals-(8))
+S&P Compustat Fundamentals Dataset (https://www.marketplace.spglobal.com/en/datasets/compustat-fundamentals-(8))
 
 ### 2. Fred Economic Data
-#### 21 accounting items, share prices, shares outstanding, and total returns for all companies listed from 1998 to 2022 are downloaded from the S&P Compustat Fundamentals Dataset. Among them, 21 accounting items are most on a quarterly basis, since they were only updated at the end of every quarter. By contrast, share prices and shares outstanding are on a monthly basis.
+#### Monthly Federal Funds Effective Rate is downloaded from Fred Economic Data to serve as the risk-free rate.
+Fred Economic Data (https://fred.stlouisfed.org/)
 
+### 3. Ken French Data Library
+#### 6 known risk premium factors (including Mkt-Rf, SMB, HML, Momemtum, ST_Rev, LT_Rev) proposed by Kenneth R. French are downloaded from Ken French Data Library.
+
+The detailed information of all used variables is outlined in the belwo table.
 
 | **Variable** | **Definition**                                                                        | **Source**                         |
 |--------------|---------------------------------------------------------------------------------------|------------------------------------|
