@@ -24,6 +24,7 @@
 
 #	Correlations Between 9 Strategies
 ### Finally, a correlation matrix between strategies is provided below to help understand the interactions between strategies. Due to the difference in mispricing signal recognition where OLS only capture linear relationship, but ML models consider the nonlinearity, the correlations between the OLS benchmark and each ML strategy are significantly lower than those between the ML strategies.
+#### The table describes the correlation analysis of the Q5-Q1 spread returns of the 9 strategies
 
 |      | OLS    | RF     | XGB    | NN2    | NN3    | NN4    | NN5    | NN6    | LSTM   |
 |------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
