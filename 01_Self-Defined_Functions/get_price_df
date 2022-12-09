@@ -1,0 +1,63 @@
+def get_price_df(signal, returns, nav=100, model_type=None):
+    """
+    Combine a dataframe containing monthly buying (1), selling (-1), or doing nothing (0) signal with a dataframe
+    containing monthly return data into a dataframe containing an accumulated return NAV time series data with a
+    designated initial NAV.
+
+    :param signal: pd.dataframe, a panel dataframe with monthly buying (1), selling (-1),  or doing nothing (0) signal
+                   for several assets (as columns) over an arbitrary timespan (as index).
+    :param returns: pd.dataframe, a panel dataframe with several assets' monthly returns over an arbitrary timespan.
+    :param nav: float or integer, a figure used to be the initial NAV (100 dollars by default)
+    :param model_type: boolean or str, it can be None, 'ML', 'LSTM' or '13'.
+    :return: a dataframe of an accumulated return series with designated initial NAV.
+    """
+    if model_type is None:
+        initial1 = pd.Series({'1998-04-30':nav})
+        initial1.index = pd.to_datetime(initial1.index, format='%Y-%m-%d')
+        returns.index = returns.index.astype('str')
+
+        signal.index = signal.index.astype('str')
+        ols_strategy_monthly_return = (signal * returns).sum(axis=1) / abs(signal).sum(axis=1)
+        cum_ols_strategy_return = nav * (1 + ols_strategy_monthly_return).cumprod().dropna()
+        cum_ols_strategy_return.index = pd.to_datetime(cum_ols_strategy_return.index, format='%Y-%m') + pd.tseries.offsets.MonthEnd(1)
+        cum_ols_strategy_return = pd.concat([initial1, cum_ols_strategy_return], axis=0)
+        return cum_ols_strategy_return
+
+    elif model_type == 'ML':
+        initial2 = pd.Series({'1998-10-31':nav})
+        initial2.index = pd.to_datetime(initial2.index, format='%Y-%m-%d')
+        returns.index = returns.index.astype('str')
+
+        signal.index = signal.index.astype('str')
+        ml_strategy_monthly_return = (signal * returns).sum(axis=1) / abs(signal).sum(axis=1)
+        cum_ml_strategy_return = nav * (1 + ml_strategy_monthly_return).cumprod().dropna()
+        cum_ml_strategy_return.index = pd.to_datetime(cum_ml_strategy_return.index, format='%Y-%m') + pd.tseries.offsets.MonthEnd(1)
+        cum_ml_strategy_return = cum_ml_strategy_return['1998-11-30':]
+        cum_ml_strategy_return = pd.concat([initial2, cum_ml_strategy_return], axis=0)
+        return cum_ml_strategy_return
+
+    elif model_type == 'LSTM':
+        initial3 = pd.Series({'1999-04-30':nav})
+        initial3.index = pd.to_datetime(initial3.index, format='%Y-%m-%d')
+        returns.index = returns.index.astype('str')
+
+        signal.index = signal.index.astype('str')
+        ml_strategy_monthly_return = (signal * returns).sum(axis=1) / abs(signal).sum(axis=1)
+        cum_ml_strategy_return = nav * (1 + ml_strategy_monthly_return).cumprod().dropna()
+        cum_ml_strategy_return.index = pd.to_datetime(cum_ml_strategy_return.index, format='%Y-%m') + pd.tseries.offsets.MonthEnd(1)
+        cum_ml_strategy_return = cum_ml_strategy_return['1998-11-30':]
+        cum_ml_strategy_return = pd.concat([initial3, cum_ml_strategy_return], axis=0)
+        return cum_ml_strategy_return
+
+    elif model_type == '13':
+        initial4 = pd.Series({'2012-12-31':nav})
+        initial4.index = pd.to_datetime(initial4.index, format='%Y-%m-%d')
+        returns.index = returns.index.astype('str')
+
+        signal.index = signal.index.astype('str')
+        ml_strategy_monthly_return = (signal * returns).sum(axis=1) / abs(signal).sum(axis=1)
+        cum_ml_strategy_return = nav * (1 + ml_strategy_monthly_return).cumprod().dropna()
+        cum_ml_strategy_return.index = pd.to_datetime(cum_ml_strategy_return.index, format='%Y-%m') + pd.tseries.offsets.MonthEnd(1)
+        cum_ml_strategy_return = cum_ml_strategy_return['1998-11-30':]
+        cum_ml_strategy_return = pd.concat([initial4, cum_ml_strategy_return], axis=0)
+        return cum_ml_strategy_return
