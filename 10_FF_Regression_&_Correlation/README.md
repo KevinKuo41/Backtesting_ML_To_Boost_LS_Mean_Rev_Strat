@@ -22,3 +22,17 @@
 | **R^2**    | 0.892      | 0.836     | 0.28       | 0.948      | 0.883     | 0.521      | 0.947     | 0.887     | 0.544      | 0.94       | 0.872      | 0.539      |
 | **Obs**    | 290        | 290       | 290        | 284        | 284       | 284        | 284       | 284       | 284        | 278        | 278        | 278        |
 
+#	Correlations Between 9 Strategies
+### Finally, a correlation matrix between strategies is provided below to help understand the interactions between strategies. Due to the difference in mispricing signal recognition where OLS only capture linear relationship, but ML models consider the nonlinearity, the correlations between the OLS benchmark and each ML strategy are significantly lower than those between the ML strategies.
+
+|      | OLS    | RF     | XGB    | NN2    | NN3    | NN4    | NN5    | NN6    | LSTM   |
+|------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| OLS  | 1      | 0.3653 | 0.5443 | 0.1403 | 0.4005 | 0.3966 | 0.3319 | 0.4388 | 0.5377 |
+| RF   | 0.3653 | 1      | 0.858  | 0.8398 | 0.9249 | 0.96   | 0.9643 | 0.9537 | 0.7639 |
+| XGB  | 0.5443 | 0.858  | 1      | 0.6314 | 0.8247 | 0.8314 | 0.7738 | 0.864  | 0.8725 |
+| NN2  | 0.1403 | 0.8398 | 0.6314 | 1      | 0.8567 | 0.8849 | 0.8965 | 0.8651 | 0.533  |
+| NN3  | 0.4005 | 0.9249 | 0.8247 | 0.8567 | 1      | 0.9262 | 0.9248 | 0.9418 | 0.7065 |
+| NN4  | 0.3966 | 0.96   | 0.8314 | 0.8849 | 0.9262 | 1      | 0.9675 | 0.9782 | 0.7382 |
+| NN5  | 0.3319 | 0.9643 | 0.7738 | 0.8965 | 0.9248 | 0.9675 | 1      | 0.9496 | 0.6899 |
+| NN6  | 0.4388 | 0.9537 | 0.864  | 0.8651 | 0.9418 | 0.9782 | 0.9496 | 1      | 0.7701 |
+| LSTM | 0.5377 | 0.7639 | 0.8725 | 0.533  | 0.7065 | 0.7382 | 0.6899 | 0.7701 | 1      |
