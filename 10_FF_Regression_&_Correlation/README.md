@@ -4,7 +4,8 @@
 ##### The table describes the intercept, slope coefficients, t-statistics, R^2, and the number of observations from time-series regression of the Q1, Q5 and Q5-Q1 positions’ monthly return on 6 factors for OLS, RF, NN5, and LSTM strategy separately. The numbers in parentheses are t-statistics. *, **, *** represent the statistical significance at the 10%, 5%,and 1% levels, respectively.
 |            |            | **OLS**   |            |            | **RF**    |            |           | **NN5**   |            |            | **LSTM**   |
 |------------|------------|-----------|------------|------------|-----------|------------|-----------|-----------|------------|------------|------------|
-|            | Q1         | Q5        | Q5-Q1      | Q1         | Q5        | Q5-Q1      | Q1        | Q5        | Q5-Q1      | Q1         | Q5         | Q5-Q1      |
+|            | Q1         | Q5        | Q5-Q1      | Q1         | Q5        | Q5-Q1      | Q1        | Q5        | Q5-Q1      | Q1         | Q5         | 
+Q5-Q1      |
 | **Alpha**  | 0.0074***  | 0.0151*** | 0.0039***  | 0.0024***  | 0.0203*** | 0.0090***  | 0.0030*** | 0.0203*** | 0.0087***  | 0.0028***  | 0.0113***  | 0.0043***  |
 |            | (6.703)    | (12.622)  | (4.089)    | (3.546)    | (20.500)  | (15.660)   | (4.474)   | (20.398)  | (15.053)   | (3.699)    | (10.302)   | (6.759)     |
 | **Mkt_RF** | 0.9699***  | 0.7824*** | -0.0941*** | 0.9862***  | 0.7224*** | -0.1322*** | 0.9957*** | 0.7218*** | -0.1372*** | 1.0197***  | 0.7703***  | -0.1248*** |
@@ -19,8 +20,10 @@
 |            | (-1.923)   | (2.682)   | (2.814)    | (-1.285)   | (0.801)   | (1.435)    | (-3.103)  | (1.262)   | (2.896)    | (-1.554)   | (3.374)    | (3.843)     |
 | **LT_Rev** | 0.1028**   | -0.0267   | -0.0646    | -0.0405    | 0.0175    | 0.0291     | -0.0477   | 0.0421    | 0.045      | -0.0679*   | -0.0812    | -0.0066    |
 |            | (2.036)    | (-0.485)  | (-1.487)   | (-1.321)   | (0.382)   | (1.096)    | (-1.541)  | (0.914)   | (1.690)    | (-1.971)   | (-1.596)   | (-0.226)   |
-| **R^2**    | 0.892      | 0.836     | 0.28       | 0.948      | 0.883     | 0.521      | 0.947     | 0.887     | 0.544      | 0.94       | 0.872      | 0.539      |
-| **Obs**    | 290        | 290       | 290        | 284        | 284       | 284        | 284       | 284       | 284        | 278        | 278        | 278        |
+| **R^2**    | 0.892      | 0.836     | 0.28       | 0.948      | 0.883     | 0.521      | 0.947     | 0.887     | 0.544      | 0.94       | 0.872      | 
+0.539      |
+| **Obs**    | 290        | 290       | 290        | 284        | 284       | 284        | 284       | 284       | 284        | 278        | 278        | 
+278        |
 
 #	Correlations Between 9 Strategies
 #### Finally, a correlation matrix between strategies is provided below to help understand the interactions between strategies. Due to the difference in mispricing signal recognition where OLS only capture linear relationship, but ML models consider the nonlinearity, the correlations between the OLS benchmark and each ML strategy are significantly lower than those between the ML strategies.
