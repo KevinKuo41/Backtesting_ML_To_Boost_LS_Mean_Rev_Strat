@@ -20,8 +20,7 @@
 | **LT_Rev** | 0.1028**   | -0.0267   | -0.0646    | -0.0405    | 0.0175    | 0.0291     | -0.0477   | 0.0421    | 0.045      | -0.0679*   | -0.0812    | -0.0066    |
 |            | (2.036)    | (-0.485)  | (-1.487)   | (-1.321)   | (0.382)   | (1.096)    | (-1.541)  | (0.914)   | (1.690)    | (-1.971)   | (-1.596)   |(-0.226)   |
 | **R^2**    | 0.892      | 0.836     | 0.28       | 0.948      | 0.883     | 0.521      | 0.947     | 0.887     | 0.544      | 0.94       | 0.872      | 0.539      |
-| **Obs**    | 290        | 290       | 290        | 284        | 284       | 284        | 284       | 284       | 284        | 278        | 278        | 
-278        |
+| **Obs**    | 290        | 290       | 290        | 284        | 284       | 284        | 284       | 284       | 284        | 278        | 278        | 278        |
 
 #	Correlations Between 9 Strategies
 #### Finally, a correlation matrix between strategies is provided below to help understand the interactions between strategies. Due to the difference in mispricing signal recognition where OLS only capture linear relationship, but ML models consider the nonlinearity, the correlations between the OLS benchmark and each ML strategy are significantly lower than those between the ML strategies.
