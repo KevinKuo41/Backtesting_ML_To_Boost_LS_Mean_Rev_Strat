@@ -1,0 +1,4 @@
+# Hyper-parameters Tuning
+#### Regarding the hyper-parameters tuning process, the standard procedure for time-series data is that tuning should be done on the validation dataset between the training and testing set for each rolling or sliding window and must not shuffle the data. However, due to the extreme computational complexity (a totally of 2,274 runs of hyper-parameters tuning needed) in this work, all models’ hyper-parameters are only grid searched in the final 2 months of non-shuffled data of their first training dataset. Then, the optimal hyper-parameter setup found for each model is used for all remaining windows. The optimal choice of the hyper-parameters for each model is described below.
+![Applied Project-16](https://user-images.githubusercontent.com/92542287/206914357-babce77d-780a-44db-931c-34ab75b231ed.jpg)
+![Applied Project-17](https://user-images.githubusercontent.com/92542287/206914358-9aace5be-04f9-4be3-ae75-1c59e6dabff4.jpg)
