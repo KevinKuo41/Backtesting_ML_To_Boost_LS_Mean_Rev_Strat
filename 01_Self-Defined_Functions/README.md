@@ -1,7 +1,7 @@
 # Self-Defined Functions
-### 1. get_price_df()
+## 1. get_price_df()
 #### Combine a dataframe containing monthly buying (1), selling (-1), or doing nothing (0) signal with a dataframe containing monthly return data into a dataframe containing an accumulated return NAV time series data with a designated initial NAV.
-### 2. get_performance_stats()
+## 2. get_performance_stats()
 #### Generate the performance stats for a time-series price data.
              Tot Return     - total cumulative return over the whole period
              Avg Return     - average annualised return
@@ -17,7 +17,7 @@
              Trough date    - Date of the MDD trough
              Recession Date - Date the asset recovered from Drawdown loss
              MDD Duration   - MDD duration in days from peak to recovery date
-### 3. get_performance_stats_2()
+## 3. get_performance_stats_2()
 #### Generate the long/short, long only and short only performance stats for a time-series price data.
              Total Return           - total cumulative return over the whole period
              Avg Monthly Return     - average monthly return over the whole period
