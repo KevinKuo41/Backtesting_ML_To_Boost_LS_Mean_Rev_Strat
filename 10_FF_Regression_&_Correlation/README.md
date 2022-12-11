@@ -3,7 +3,7 @@
 
 ##### The table describes the intercept, slope coefficients, t-statistics, R^2, and the number of observations from time-series regression of the Q1, Q5 and Q5-Q1 positions’ monthly return on 6 factors for OLS, RF, NN5, and LSTM strategy separately. The numbers in parentheses are t-statistics. *, **, *** represent the statistical significance at the 10%, 5%,and 1% levels, respectively.
 |            |            | **OLS**   |            |            | **RF**    |            |           | **NN5**   |            |            | **LSTM**   |            |
-|------------|------------|-----------|------------|------------|-----------|------------|-----------|-----------|------------|------------|------------|            |
+|------------|------------|-----------|------------|------------|-----------|------------|-----------|-----------|------------|------------|------------|------------|
 |            | Q1         | Q5        | Q5-Q1      | Q1         | Q5        | Q5-Q1      | Q1        | Q5        | Q5-Q1      | Q1         | Q5         | Q5-Q1      |
 | **Alpha**  | 0.0074***  | 0.0151*** | 0.0039***  | 0.0024***  | 0.0203*** | 0.0090***  | 0.0030*** | 0.0203*** | 0.0087***  | 0.0028***  | 0.0113***  |0.0043***  |
 |            | (6.703)    | (12.622)  | (4.089)    | (3.546)    | (20.500)  | (15.660)   | (4.474)   | (20.398)  | (15.053)   | (3.699)    | (10.302)   | (6.759)    |
