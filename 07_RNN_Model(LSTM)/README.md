@@ -1,5 +1,5 @@
 # RNN LSTM Model Based Strategy
-#### The detailed setup for the model is outlined in section "0407_Summary_for_ML_Models" (A standardisation process is executed on each feature variable individually within the training and testing windows before being fed into the models. In contrast, this step is not done for Random Forest and XGBoost models.)
+#### The detailed setup for the model is outlined in section "0407_Summary_for_ML_Models" <br> (A standardisation process is executed on each feature variable individually within the training and testing windows before being fed into the models. In contrast, this step is not done for Random Forest and XGBoost models.)
 
 ### 1. Training & Testing Windows
 | Model | Fixed Sliding Training Window | Fixed Testing Window |
