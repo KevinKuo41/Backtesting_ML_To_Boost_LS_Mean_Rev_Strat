@@ -3,6 +3,7 @@
 
 ### 1. Training & Testing Windows
 | Model | Fixed Sliding Training Window | Fixed Testing Window |
+|-------|-------------------------------|----------------------|
 | LSTM  | 12 months                     | 12 months            |
 
 ### 2. Fixed Sliding Window Scheme
