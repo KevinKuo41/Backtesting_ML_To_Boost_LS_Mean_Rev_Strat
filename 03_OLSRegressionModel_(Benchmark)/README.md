@@ -2,7 +2,7 @@
 #### Due to the data source and methodology differences, it is inappropriate to directly compare the performance statistics from Bartram and Grinblatt (2018 & 2021) with those of the ML augmented models in this work. Therefore, an OLS regression model is created as the benchmark. Apart from the differences mentioned, the OLS regression model closely follows the approach proposed by Bartram and Grinblatt (2018 & 2021). <br><br> At the end of each month, a cross-sectional OLS regression of firms’ 21 contemporaneous available accounting items on their market capitalisations is created to calculate the fair equity value and the mispricing signals used to classify stocks. The signal generation starts in April 1998 and ends in May 2022.
 
 #### First, we run a cross-sectional OLS regression of firms’ 21 accounting items xj,1,t,…,xj,21,t on their market capitalisations MVj,t to obtain the coefficients b1,t,…,b21,t and the intercept at, i.e.:
-$$MV_j,t  = a_t+b_{1,t} x_{j,1,t}+⋯+b_{21,t}x_{j,21,t}$$
+$$MV_j,t  = a_t+b_{1,t} * x_{j,1,t}+⋯+b_{21,t} * x_{j,21,t}$$
 In which j denotes the firm, t denotes time. Next, they plug each firm’s accounting items into the model with the above coefficients to calculate its peer-implied fair equity value, FV_(j,t).
 █(FV_(j,t)  = a_t+b_(1,t) 〖∙x〗_(j,1,t)+⋯+b_(21,t) 〖∙x〗_(j,21,t)#(2) )
 Firm j's date t mispricing signal, MS_(j,t), can thus be defined as the percentage difference between its date t peer-implied fair equity value, FV_(j,t) and its market capitalisation, MV_(j,t).
