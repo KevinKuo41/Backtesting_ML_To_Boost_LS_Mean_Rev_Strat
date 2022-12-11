@@ -1,5 +1,5 @@
 # Random Forest Model Based Strategy
-#### The detailed setup for the model is outlined in section "0407_Summary_for_ML_Models"
+#### * The detailed setup for the model is outlined in section "0407_Summary_for_ML_Models"
 ### 1. Training & Testing Windows
 | Model | Fixed Rolling Training Window | Fixed Testing Window |
 |-------|-------------------------------|----------------------|
