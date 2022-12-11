@@ -11,3 +11,4 @@ Firm j's date t mispricing signal, MS_(j,t), can thus be defined as the percenta
 
 <br><br> The following month, a long (short) position is implemented for the most underpriced (overpriced) groups based on the corresponding mispricing signals. The holding period is 1 month. The above process is repeated month by month over the whole sample period. Thus, the trading period ranges from May 1998 to June 2022.
 
+$$Therefore,\; P_o=\sigma(h^TW_2)=\sigma(W_1[X]^TW_2[o])$$
