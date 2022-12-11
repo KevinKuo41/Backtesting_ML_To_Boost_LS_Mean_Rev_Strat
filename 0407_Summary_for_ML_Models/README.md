@@ -17,12 +17,12 @@
 
 ## 1. Training & Testing Method
 ### (1) RF, XGBoost, Vanila NN Models
-#### Except for the LSTM model, a fixed 6-month rolling window that moves forward by 1 month each time is applied for training the ML models. Models are trained by each firm’s 21 accounting items (feature variables) within each rolling training window, and their target variable is each firm’s market capitalisations within the same window. The month after the training window serves as the out-of-sample testing data in which the trained models will be fed with each firm’s 21 accounting items and predict each firm’s fair equity value, as indicated in the below Figure.
+#### Except for the LSTM model, a fixed 6-month rolling window that moves forward by 1 month each time is applied for training the ML models. Models are trained by each firm’s 21 accounting items (feature variables) within each rolling training window, and their target variable is each firm’s market capitalisations within the same window. The month after the training window serves as the out-of-sample testing data in which the trained models will be fed with each firm’s 21 accounting items and predict each firm’s fair equity value, as indicated in the below Figure. <br>
 
 ![圖片1](https://user-images.githubusercontent.com/92542287/206918318-f8b86bdb-6655-4e50-86c5-2572b6b57c98.png)
 
 ### (2) RNN LSTM Model
-#### Since aiming to take the most advantage of its capability in capturing the pattern hidden in sequential data, fixed sliding training and testing windows of 12 months that moves forward by 1 month each time are implemented on the LSTM model. In this case, the sliding window scheme means the LSTM model is trained with the first 12-month target and feature variables. The model will then be fed with the 2nd to 13th months’ feature variables to predict the fair equity value in the 13th month and so on, as indicated in the below Figure. Besides, since the shape of LTSM’s input array is fixed, when the model is trained or used to predict fair equity values, the stocks with less than 12 months of data within the window must be excluded.
+#### Since aiming to take the most advantage of its capability in capturing the pattern hidden in sequential data, fixed sliding training and testing windows of 12 months that moves forward by 1 month each time are implemented on the LSTM model. In this case, the sliding window scheme means the LSTM model is trained with the first 12-month target and feature variables. The model will then be fed with the 2nd to 13th months’ feature variables to predict the fair equity value in the 13th month and so on, as indicated in the below Figure. Besides, since the shape of LTSM’s input array is fixed, when the model is trained or used to predict fair equity values, the stocks with less than 12 months of data within the window must be excluded. <br>
 
 ![圖片2](https://user-images.githubusercontent.com/92542287/206918386-3088d5b1-639d-4d4d-b2ef-8f81defe4435.png)
 
