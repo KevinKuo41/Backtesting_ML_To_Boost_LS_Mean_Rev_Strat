@@ -13,7 +13,7 @@
 | Model | Fixed Sliding Training Window | Fixed Testing Window |
 | LSTM  | 12 months                     | 12 months            |
 
-#### * Target Variable: Each Firm’s Market Cap; <br> Feature Variables: Each Firm’s 21 Accounting Items
+#### * <br> Target Variable: Each Firm’s Market Cap; <br> Feature Variables: Each Firm’s 21 Accounting Items
 
 ## 1. Training & Testing Method
 ### (1) RF, XGBoost, Vanila NN Models
