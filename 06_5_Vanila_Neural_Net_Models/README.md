@@ -1,4 +1,4 @@
-# 5 Vanila Neural Network Models Based Strategies
+# 5 Vanilla Neural Network Models Based Strategies
 #### The detailed setup for the model is outlined in section "0407_Summary_for_ML_Models"
 ### 1. Training & Testing Windows
 #### *a standardisation process is executed on each feature variable individually within the training and testing windows before being fed into the models. In contrast, this step is not done for Random Forest and XGBoost models. 
