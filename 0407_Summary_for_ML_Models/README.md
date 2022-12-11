@@ -1,0 +1,31 @@
+# 8 Machine Learning Augmented Strategies
+#### The Random Forest (Breiman, 2001), XGBoost (eXtreme Gradient Boosting, Chen et al., 2016), Neural Network (Hopfield, 1982), and LSTM (Long-short Term Memory, Hochreiter et al., 1997) models are used. The standard approach of ML applications and out-of-sample prediction (Gu et al., 2020) is firmly followed in this work, except for the hyper-parameter tuning process. Eight ML algorithms are used to augment the valuation approach from Bartram and Grinblatt (2018 & 2021). The corresponding training and testing windows for the ML models are provided below.
+
+| Model | Fixed Rolling Training Window | Fixed Testing Window |
+|-------|-------------------------------|----------------------|
+| RF    | 6 months                      | 1 month              |
+| XGB   | 6 months                      | 1 month              |
+| NN2   | 6 months                      | 1 month              |
+| NN3   | 6 months                      | 1 month              |
+| NN4   | 6 months                      | 1 month              |
+| NN5   | 6 months                      | 1 month              |
+| NN6   | 6 months                      | 1 month              |
+| Model | Fixed Sliding Training Window | Fixed Testing Window |
+| LSTM  | 12 months                     | 12 months            |
+
+## Training & Testing Method
+### RF, XGBoost, Vanila NN Models
+#### Except for the LSTM model, a fixed 6-month rolling window that moves forward by 1 month each time is applied for training the ML models. Models are trained by each firm’s 21 accounting items (feature variables) within each rolling training window, and their target variable is each firm’s market capitalisations within the same window. The month after the training window serves as the out-of-sample testing data in which the trained models will be fed with each firm’s 21 accounting items and predict each firm’s fair equity value, as indicated in the below Figure.
+
+![圖片1](https://user-images.githubusercontent.com/92542287/206918318-f8b86bdb-6655-4e50-86c5-2572b6b57c98.png)
+
+### RNN LSTM Model
+#### Since aiming to take the most advantage of its capability in capturing the pattern hidden in sequential data, fixed sliding training and testing windows of 12 months that moves forward by 1 month each time are implemented on the LSTM model. In this case, the sliding window scheme means the LSTM model is trained with the first 12-month target and feature variables. The model will then be fed with the 2nd to 13th months’ feature variables to predict the fair equity value in the 13th month and so on, as indicated in Figure 2. Besides, since the shape of LTSM’s input array is fixed, when the model is trained or used to predict fair equity values, the stocks with less than 12 months of data within the window must be excluded.
+
+![圖片2](https://user-images.githubusercontent.com/92542287/206918386-3088d5b1-639d-4d4d-b2ef-8f81defe4435.png)
+
+## Standardisation Applied on Dataset for NN and LSTM Models
+#### Additionally, due to the Neural Network and LSTM models’ favour in a mean-zero dataset, a standardisation process is executed on each feature variable individually within the training and testing windows before being fed into the models. In contrast, this step is not done for Random Forest and XGBoost models. 
+
+## Construction of Portfolio Based on Models
+#### After the training and predicting step, the trained models calculate the mispricing signal, and the stocks are sorted based on it. A long (short) position will be implemented for the most underpriced (overpriced) groups in the next month, with a holding period of 1 month. The whole rolling or sliding process is repeated over the data period. It is worth mentioning that since the ML models, except for the LSTM, are trained on a 6-month period, their signal generation starts in October 1998 and ends in May 2022. Thus, their trading period ranges from November 1998 to June 2022. By contrast, the LSTM model is trained on a 1-year period, so its signal generation starts in April 1999 and ends in May 2022, and its trading period ranges from May 1999 to June 2022.
