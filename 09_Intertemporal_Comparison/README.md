@@ -1,7 +1,7 @@
 #	Performance Comparisons Across Periods (1998-2012 vs 2013-2022)
 #### To help inspect whether the effectiveness of the mispricing recognition factor has declined in recent years, the whole sample period is split into two periods: the first period ranges from April 1998 to December 2012, and the second period is from January 2013 to June 2022. The performance statistics for each strategy implemented with the 5-quintile portfolio in the 2 periods are calculated respectively and listed below. Each strategy’s Q5-Q1 spread lessens by around 50% in unison after switching from the 1998-2012 to 2013-2022 period, primarily because the long position’s returns reduce by 20% to 30%. <br><br>On the other hand, it is worth noticing that the OLS benchmark’s Q1 return decreases after switching from the 1998-2012 to 2013-2022 period. In contrast, all ML models’ Q1 return increases, decreasing their Q5-Q1 spread. The difference may result from the fact that the ML models’ optimal hyper-parameters are grid searched with the samples in 1998 and remain the same for all windows. Since the market regime may change a lot after such a long time, these hyper-parameters may not be optimal anymore. Thus, if hyper-parameters are tuned using the samples within the 2013-2022 period, ML models’ Q1 return would decrease a bit, and their Q5-Q1 spread returns would be higher than the returns shown. <br><br>In summary, the mispricing recognition factor still works so far, and its effectiveness has weakened in recent years compared to the performance from 1998 to 2012. However, the degree of decline in its effectiveness may be smaller than shown in the tables.
 
-#### Performance Statistics for Quintile Sorted Portfolios (from 1998 to 2012)
+#### (1) Performance Statistics for Quintile Sorted Portfolios (from 1998 to 2012)
 | ’98 – ‘12 | AMR   | M>0   | Vol    | MDD   | SR   | T/M | Mkt Cap (bn) |
 |-----------|-------|-------|--------|-------|------|-----|--------------|
 | OLS       |
@@ -41,7 +41,7 @@
 | Q1        | 0.82% | 62.1% | 17.95% | 46.5% | 0.28 | 179 | 37.1         |
 | Q5 - Q1   | 0.74% | 54.9% | 5.50%  | 18.3% | 0.74 | 306 | 19.6         |
 
-#### Performance Statistics for Quintile Sorted Portfolios (from 2013 to 2022)
+#### (2) Performance Statistics for Quintile Sorted Portfolios (from 2013 to 2022)
 | ’13 – ‘22 | AMR   | M>0   | Vol    | MDD   | SR   | T/M | Mkt Cap (bn) |
 |-----------|-------|-------|--------|-------|------|-----|--------------|
 | OLS       |
