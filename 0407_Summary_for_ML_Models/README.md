@@ -1,5 +1,5 @@
 # 8 Machine Learning Augmented Strategies
-#### The Random Forest (Breiman, 2001), XGBoost (eXtreme Gradient Boosting, Chen et al., 2016), Neural Network (Hopfield, 1982), and LSTM (Long-short Term Memory, Hochreiter et al., 1997) models are used. The standard approach of ML applications and out-of-sample prediction (Gu et al., 2020) is firmly followed in this work, except for the hyper-parameter tuning process. Eight ML algorithms are used to augment the valuation approach from Bartram and Grinblatt (2018 & 2021). The corresponding training and testing windows for the ML models are provided below. (Target Variable: Each Firm’s Market Cap; Feature Variables: Each Firm’s 21 Accounting Items)
+#### The Random Forest (Breiman, 2001), XGBoost (eXtreme Gradient Boosting, Chen et al., 2016), Neural Network (Hopfield, 1982), and LSTM (Long-short Term Memory, Hochreiter et al., 1997) models are used. The standard approach of ML applications and out-of-sample prediction (Gu et al., 2020) is firmly followed in this work, except for the hyper-parameter tuning process. Eight ML algorithms are used to augment the valuation approach from Bartram and Grinblatt (2018 & 2021). The corresponding training and testing windows for the ML models are provided below. 
 
 | Model | Fixed Rolling Training Window | Fixed Testing Window |
 |-------|-------------------------------|----------------------|
@@ -12,6 +12,8 @@
 | NN6   | 6 months                      | 1 month              |
 | Model | Fixed Sliding Training Window | Fixed Testing Window |
 | LSTM  | 12 months                     | 12 months            |
+
+#### * Target Variable: Each Firm’s Market Cap; Feature Variables: Each Firm’s 21 Accounting Items
 
 ## 1. Training & Testing Method
 ### (1) RF, XGBoost, Vanila NN Models
