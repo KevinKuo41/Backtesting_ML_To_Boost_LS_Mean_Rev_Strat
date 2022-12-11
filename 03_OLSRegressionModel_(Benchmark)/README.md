@@ -3,9 +3,9 @@
 
 #### First, we run a cross-sectional OLS regression of firms’ 21 accounting items $x_{j,1,t},…,x_{j,21,t}$ on their market capitalisations $MV_{j,t}$ to obtain the coefficients $b_{1,t},…,b_{21,t}$ and the intercept $a_t$, i.e.:
 $$MV_{j,t}  = a_t+b_{1,t} * x_{j,1,t}+⋯+b_{21,t} * x_{j,21,t}$$
-In which j denotes the firm, t denotes time. Next, they plug each firm’s accounting items into the model with the above coefficients to calculate its peer-implied fair equity value, FV_(j,t).
-█(FV_(j,t)  = a_t+b_(1,t) 〖∙x〗_(j,1,t)+⋯+b_(21,t) 〖∙x〗_(j,21,t)#(2) )
-Firm j's date t mispricing signal, MS_(j,t), can thus be defined as the percentage difference between its date t peer-implied fair equity value, FV_(j,t) and its market capitalisation, MV_(j,t).
+#### In which $j$ denotes the firm, $t$ denotes time. Next, we plug each firm’s accounting items into the model with the above coefficients to calculate its peer-implied fair equity value, $FV_{j,t)}$.
+$$FV_{j,t}  = a_t+b_{1,t} *x_{j,1,t}+⋯+b_{21,t}*x_{j,21,t}$$
+#### Firm j's date t mispricing signal, MS_(j,t), can thus be defined as the percentage difference between its date t peer-implied fair equity value, FV_(j,t) and its market capitalisation, MV_(j,t).
 █(MS_(j,t)  =  (〖FV〗_(j,t)  -〖MV〗_(j,t))/〖MV〗_(j,t) #(3) )
 
 
