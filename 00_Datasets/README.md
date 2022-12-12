@@ -14,7 +14,7 @@ Link: https://fred.stlouisfed.org/
 
 ### 3. Ken French Data Library
 Link: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
-#### 6 known risk premium factors (including Mkt-Rf, SMB, HML, Momentum, ST_Rev, LT_Rev) proposed by Kenneth R. French are downloaded from Ken French Data Library. <br> <br> <br> The detailed information on all used variables is outlined in the belo table:
+#### 6 known risk premium factors (including Mkt-Rf, SMB, HML, Momentum, ST_Rev, LT_Rev) proposed by Kenneth R. French are downloaded from Ken French Data Library. <br> <br> <br> The detailed information on all used variables is outlined in the below table:
 
 | **Variable** | **Definition**                                                                 | **Source**                         |
 |--------------|--------------------------------------------------------------------------------|------------------------------------|
