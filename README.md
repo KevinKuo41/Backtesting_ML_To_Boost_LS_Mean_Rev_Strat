@@ -1,4 +1,4 @@
-# Machine Learning Applications in Augmenting Mispricing Recognition & Mean Reversion Strategy (機器學習在增強錯誤定價識別和構建均值回歸策略中的應用)
+# Machine Learning Applications in Augmenting Mispricing Recognition & Mean Reversion Strategy <br> (機器學習在增強錯誤定價識別和構建均值回歸策略中的應用)
 
 #### Summary in English
 ![Final_Presentation-1](https://user-images.githubusercontent.com/92542287/206955052-df25606b-5e75-4451-b6ba-cec92c101975.jpg)
