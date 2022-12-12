@@ -8,7 +8,7 @@
 ![Final_Presentation-5](https://user-images.githubusercontent.com/92542287/206955152-6aa522c1-3df1-4de4-91e7-0ccd3d55b08a.jpg)
 ![Final_Presentation-6](https://user-images.githubusercontent.com/92542287/206955156-12a6dc2f-93ef-47dc-8fc0-556e2117a721.jpg)
 
-#### Summary in Chinese
+#### 中文摘要
 ![Final_Presentation_Chinese-1](https://user-images.githubusercontent.com/92542287/206955220-9b32a82e-431f-41cc-9c9e-7a8d1f215c15.jpg)
 ![Final_Presentation_Chinese-2](https://user-images.githubusercontent.com/92542287/206955222-72226960-122b-4a5c-9176-3e2d5ab52300.jpg)
 ![Final_Presentation_Chinese-3](https://user-images.githubusercontent.com/92542287/206955225-ed27e818-7c90-46df-9977-1d8dacd5f7c4.jpg)
