@@ -18,3 +18,8 @@
 ![Applied Project-18](https://user-images.githubusercontent.com/92542287/206916093-2d8ebe3f-aa0b-47ac-98ab-5d420e47b320.jpg)
 ![Applied Project-19](https://user-images.githubusercontent.com/92542287/206916099-0ab05110-b7eb-4d9d-8434-6dffc0989664.jpg)
 
+## 2. Backtesting Results For L/S Mean Reversion Strategy
+The graph describes the cumulative Q5-Q1 spread returns of the 9 strategies
+![Applied Project-26](https://user-images.githubusercontent.com/92542287/206817965-0502fb6a-9b65-4202-ba29-516df81cf083.jpg)
+The graph describes the cumulative D10-D1 spread returns of the 9 strategies
+![Applied Project-27](https://user-images.githubusercontent.com/92542287/206817969-1452f9d6-2124-4c82-8992-a702b6b7b579.jpg)
