@@ -23,3 +23,16 @@ The graph describes the cumulative Q5-Q1 spread returns of the 9 strategies
 ![Applied Project-26](https://user-images.githubusercontent.com/92542287/206817965-0502fb6a-9b65-4202-ba29-516df81cf083.jpg)
 The graph describes the cumulative D10-D1 spread returns of the 9 strategies
 ![Applied Project-27](https://user-images.githubusercontent.com/92542287/206817969-1452f9d6-2124-4c82-8992-a702b6b7b579.jpg)
+
+## 3. Backtesting Results For Long-only Mean Reversion Strategy
+The graph describes the cumulative Q5 returns of the 9 Long-only strategies
+![圖片](https://user-images.githubusercontent.com/92542287/209020581-b77442b5-f1cc-4a75-9828-8a3d77440ec7.png)
+The graph describes the cumulative D10 returns of the 9 Long-only strategies 
+![圖片](https://user-images.githubusercontent.com/92542287/209020633-82750987-2c5e-47a2-b42b-7cbd60e58fda.png)
+
+## 4. Backtesting Results For Short-only Mean Reversion Strategy
+The graph describes the cumulative Q5 returns of the 9 Short-only strategies
+![圖片](https://user-images.githubusercontent.com/92542287/209020718-8cd385ad-5345-4984-af43-87a81f840247.png)
+The graph describes the cumulative D10 returns of the 9 Short-only strategies
+![圖片](https://user-images.githubusercontent.com/92542287/209020759-bcfa6722-7d40-4d39-8640-4ddfbb9e6600.png)
+
