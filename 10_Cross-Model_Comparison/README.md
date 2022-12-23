@@ -31,8 +31,8 @@ The graph describes the cumulative D10 returns of the 9 Long-only strategies
 ![圖片](https://user-images.githubusercontent.com/92542287/209020633-82750987-2c5e-47a2-b42b-7cbd60e58fda.png)
 
 ## 4. Backtesting Results For Short-only Mean Reversion Strategy
-The graph describes the cumulative Q5 returns of the 9 Short-only strategies
+The graph describes the cumulative Q1 returns of the 9 Short-only strategies
 ![圖片](https://user-images.githubusercontent.com/92542287/209020718-8cd385ad-5345-4984-af43-87a81f840247.png)
-The graph describes the cumulative D10 returns of the 9 Short-only strategies
+The graph describes the cumulative D1 returns of the 9 Short-only strategies
 ![圖片](https://user-images.githubusercontent.com/92542287/209020759-bcfa6722-7d40-4d39-8640-4ddfbb9e6600.png)
 
