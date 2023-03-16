@@ -12,7 +12,7 @@
 ![Applied Project-11](https://user-images.githubusercontent.com/92542287/209021670-743113f8-fde4-4672-8129-82221b2da1a9.jpg)
 ![Applied Project-12](https://user-images.githubusercontent.com/92542287/209021676-7e9af797-3db8-4b5c-8e21-e8263fbd5382.jpg)
 ![Applied Project-13](https://user-images.githubusercontent.com/92542287/209021677-7ceb55b5-79a4-4469-b80b-6f7fcb01b15b.jpg)
-![Applied Project-14](https://user-images.githubusercontent.com/92542287/209021681-b749d685-3157-4cd8-b349-a10d7b8663d3.jpg)
+![Applied Project-14](https://user-images.githubusercontent.com/92542287/225633905-7684f159-4e97-4b92-b405-e471c2e47792.jpg)
 ![Applied Project-15](https://user-images.githubusercontent.com/92542287/209021684-7ca6d82c-09b4-475c-b5b0-2f3058a9f72a.jpg)
 ![Applied Project-16](https://user-images.githubusercontent.com/92542287/209021691-f3a0a0a0-c527-447f-87fe-dfa9810fc2f8.jpg)
 ![Applied Project-17](https://user-images.githubusercontent.com/92542287/209021821-48016386-35ce-47c0-a9b5-89f9c1212c2a.jpg)
