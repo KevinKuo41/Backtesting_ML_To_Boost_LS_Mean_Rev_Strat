@@ -1,5 +1,7 @@
 # Machine Learning Applications in Augmenting Mispricing Recognition & Mean Reversion Strategy <br> <br> 機器學習在增強錯誤定價識別和構建均值回歸策略的應用
 
+The details of my approach are described in the section [000_Research_Paper](https://github.com/KevinKuo41/Backtesting_ML_To_Boost_LS_Mean_Rev_Strat/tree/main/000_Research_Paper)
+
 [English Summary](https://github.com/KevinKuo41/Backtesting_ML_To_Boost_LS_Mean_Rev_Strat#english-summary) | [中文摘要](https://github.com/KevinKuo41/Backtesting_ML_To_Boost_LS_Mean_Rev_Strat#%E4%B8%AD%E6%96%87%E6%91%98%E8%A6%81)
 
 #### English Summary 
